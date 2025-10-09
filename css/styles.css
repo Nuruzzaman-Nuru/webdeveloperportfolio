@@ -6,9 +6,59 @@
   letter-spacing: 0%;
   text-align: left;
 }
-nav {
-    display: flex;
-} 
- .r{
-    color: #FF000;
+/* //shared styles
+  */
+.text_primary {
+  color: #fd6e0a;
 }
+.dark-2 {
+  color: rgba(71, 71, 71, 1);
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.btn-primary {
+  background-color: #fd6e0a;
+  border-radius: 5px;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 18px 35px;
+  font-size: 20px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px 200px;
+}
+.nav-title {
+  font-weight: 800;
+  font-size: 45px;
+}
+nav li a {
+  text-decoration: none;
+}
+nav ul li {
+  list-style: none;
+  margin-right: 50px;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+}
+
+body {
+  background-image: url("../images/developer.png");
+  background-repeat: no-repeat;
+}
+ header {
+  height: 100vh;
+  background-color: #ffffff;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+ }
