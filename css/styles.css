@@ -50,15 +50,3 @@ nav ul {
   display: flex;
   align-items: center;
 }
-
-body {
-  background-image: url("../images/developer.png");
-  background-repeat: no-repeat;
-}
- header {
-  height: 100vh;
-  background-color: #ffffff;
-  background-size: cover;
-  background-position: center;
-  position: relative;
- }
