@@ -138,6 +138,7 @@ main {
 .skills-contrainer {
   display: flex;
   justify-content: space-between;
+  gap: 60px;
 }
 .skill-describption {
   color: rgba(117, 117, 117, 1);
