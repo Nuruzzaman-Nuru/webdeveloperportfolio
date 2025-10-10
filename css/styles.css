@@ -61,6 +61,9 @@ nav ul {
   background-position: top left, bottom right;
 }
 /* //banner styles */
+.text-center {
+  text-align: center;
+}
 .banner {
   display: flex;
   justify-content: space-between;
@@ -128,6 +131,26 @@ main {
   letter-spacing: 0%;
   text-align: center;
 }
-.item-describetion{
+.item-describetion {
   font-weight: 800;
+}
+/* skills */
+.skills-contrainer {
+  display: flex;
+  justify-content: space-between;
+}
+.skill-describption {
+  color: rgba(117, 117, 117, 1);
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin: auto;
+}
+.skill-title{
+  font-size: 25px;
+  font-weight: 600;
+  margin: 15px 0;
 }
