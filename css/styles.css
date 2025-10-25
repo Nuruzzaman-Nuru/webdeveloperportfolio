@@ -134,7 +134,7 @@ main section {
   letter-spacing: 0%;
   text-align: center;
 }
-.item-describetion {
+.item-description {
   font-weight: 800;
 }
 /* skills */
@@ -142,7 +142,7 @@ main section {
   display: flex;
   gap: 24px;
 }
-.item-describetion {
+.item-description {
   color: rgba(117, 117, 117, 1);
 
   font-family: Open Sans;
@@ -252,6 +252,8 @@ footer textarea {
    .skills-container, 
    .resume-container,
     footer ,
+    .section-description,
+    .about-item ,
     .profile-img ,
     nav,
     .banner,
