@@ -138,7 +138,7 @@ main section {
   font-weight: 800;
 }
 /* skills */
-.skills-contrainer {
+.skills-container {
   display: flex;
   gap: 24px;
 }
@@ -249,7 +249,7 @@ footer textarea {
 }
 /* responsive styles */
 @media screen and (max-width: 576px) {
-   .skills-contrainer, 
+   .skills-container, 
    .resume-container,
     footer ,
     .profile-img ,
